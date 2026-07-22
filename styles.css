@@ -7,6 +7,9 @@
 @media(max-width:900px){.where-to-buy{grid-template-columns:1fr;margin-top:60px;padding:50px;gap:40px}}
 @media(max-width:600px){.where-to-buy{margin:50px 12px 0;padding:36px 24px}.where-copy h2{font-size:37px}.buy-card{padding:32px 24px}}
 
+.byline{font-size:12px;color:var(--muted);margin:18px 0 0}.byline a{color:var(--green);font-weight:700;text-underline-offset:3px}.sources{max-width:1180px;margin:0 auto;padding:90px 24px}.sources h2{font:700 40px Manrope,sans-serif;letter-spacing:-.04em;margin:18px 0}.sources p{max-width:850px;color:var(--muted)}.sources ul{padding-left:20px}.sources li{margin:9px 0}.sources a{color:var(--green);font-weight:700;text-underline-offset:3px}.editorial-page{max-width:900px}.editorial-page .page-lede{font-size:20px;line-height:1.7;color:var(--ink)}.editorial-page h1{line-height:1.08}.footer-bottom nav{flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:600px){.sources{padding:70px 20px}.sources h2{font-size:34px}.editorial-page .page-lede{font-size:18px}.footer-bottom nav{justify-content:flex-start}}
+
 /* Brand and cross-browser fallbacks */
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}button,input,select,textarea{font:inherit}.site-header{-webkit-backdrop-filter:blur(10px)}.hero h1,.section-head h2,.quick-take h2,.faq>h2,.verdict h2{font-size:54px}.brand-image{width:230px;max-width:24vw;height:58px;overflow:hidden}.brand-image img{display:block;width:100%;height:100%;object-fit:contain}.footer-logo{width:260px;max-width:100%;height:78px;background:#fff;border-radius:4px;padding:7px}.site-header>.brand-image+nav{margin-left:auto}
 @supports (font-size:clamp(1rem,2vw,3rem)){.hero h1,.section-head h2,.quick-take h2,.faq>h2,.verdict h2{font-size:clamp(46px,5.8vw,78px)}}

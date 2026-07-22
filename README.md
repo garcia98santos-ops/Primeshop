@@ -1,20 +1,34 @@
-# ClearForm Reviews — Nitric Boost Ultra
+# PrimeShop Reviews — Nitric Boost Ultra
 
-Static, responsive affiliate review site. Open `index.html` directly or serve the folder with any static web server.
+Static, responsive editorial review site. Open `index.html` directly or serve the folder with any static web server.
 
-## Open in VS Code
+## Included in this version
 
-Double-click `primeusashop.code-workspace`, or open VS Code and select **File → Open Folder**, then choose this project folder.
+- Current published review layout
+- Local, optimized WebP brand and product images
+- PrimeShop Reviews branding across all pages
+- About, Review Methodology, and Editorial Policy pages
+- Updated privacy, terms, and medical/affiliate disclosures
+- Per-placement ClickBank tracking IDs
+- Analytics-ready `dataLayer` and `affiliate_click` event
+- Correct canonical URLs and sitemap for the current GitHub Pages address
 
-For a local preview, install the recommended **Live Server** extension, right-click `index.html`, and select **Open with Live Server**.
+## Publish
 
-## Before publishing
+Upload the contents of this folder to the root of the `Primeshop` GitHub repository. Do not upload the containing folder itself.
 
-1. The production domain is configured as `https://primeusashop.com.br/`.
-2. Add the site owner's legal business/contact details to the legal pages.
-3. Confirm the affiliate ID, tracking IDs, current product formula, pricing, and guarantee.
-4. Host approved product imagery locally or confirm that the manufacturer permits hotlinking.
-5. Add analytics/advertising scripts only after implementing the consent mechanism required for target regions.
-6. Configure the Google Ads conversion action and replace the optional `gtag` event hookup as needed.
+The current canonical base is:
 
-The page intentionally avoids disease-treatment claims, guaranteed outcomes, invented testimonials, and aggregate star ratings.
+`https://garcia98santos-ops.github.io/Primeshop/`
+
+When a custom domain is connected, replace this base URL in the HTML canonical/Open Graph fields, `robots.txt`, and `sitemap.xml` at the same time.
+
+## Required before paid traffic
+
+1. Add and verify a public PrimeShop contact email.
+2. Confirm the affiliate ID, product label, serving information, guarantee, and seller terms.
+3. Add Google Tag Manager, GA4, and Google Ads IDs after the accounts are created.
+4. Add the appropriate consent mechanism before activating nonessential advertising or analytics cookies.
+5. Test every outbound link and conversion event on the production URL.
+
+The content intentionally avoids disease-treatment claims, guaranteed outcomes, invented testimonials, aggregate star ratings, and claims of first-person or laboratory testing.
