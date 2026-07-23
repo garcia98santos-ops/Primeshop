@@ -10,7 +10,8 @@ Static, responsive editorial review site. Open `index.html` directly or serve th
 - About, Review Methodology, and Editorial Policy pages
 - Updated privacy, terms, and medical/affiliate disclosures
 - Per-placement ClickBank tracking IDs
-- Analytics-ready `dataLayer` and `affiliate_click` event
+- Google tag installed for GA4 (`G-5Z6PDNRMDN`) and Google Ads (`AW-18268151102`)
+- Analytics-ready `dataLayer` and `affiliate_click` event with CTA placement
 - Correct canonical URLs and sitemap for the current GitHub Pages address
 
 ## Publish
@@ -25,10 +26,10 @@ When a custom domain is connected, replace this base URL in the HTML canonical/O
 
 ## Required before paid traffic
 
-1. Add and verify a public PrimeShop contact email.
-2. Confirm the affiliate ID, product label, serving information, guarantee, and seller terms.
-3. Add Google Tag Manager, GA4, and Google Ads IDs after the accounts are created.
-4. Add the appropriate consent mechanism before activating nonessential advertising or analytics cookies.
+1. Confirm the affiliate ID, product label, serving information, guarantee, and seller terms.
+2. In GA4, mark `affiliate_click` as a key event after the first event is received.
+3. Link GA4 and Google Ads, then import `affiliate_click` as the Google Ads conversion action.
+4. Add the appropriate consent mechanism if targeting regions where it is required.
 5. Test every outbound link and conversion event on the production URL.
 
 The content intentionally avoids disease-treatment claims, guaranteed outcomes, invented testimonials, aggregate star ratings, and claims of first-person or laboratory testing.
